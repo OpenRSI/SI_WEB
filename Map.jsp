@@ -60,8 +60,8 @@
 	<script type="text/javascript">
         
             // On initialise la latitude et la longitude de Paris (centre de la carte)
-            var lat = 48.852969;
-            var lon = 2.349903;
+            var lat = 48.858205;
+            var lon = 2.294359;
             var macarte = null;
             // Nous initialisons une liste de marqueurs
         
