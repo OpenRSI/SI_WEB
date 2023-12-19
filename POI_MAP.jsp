@@ -7,8 +7,8 @@
     String password = "mysql";
 
 //C'est le POI de l'utilisateur
-out.println("lat\\tlon\\ttitle\\tdescription\\ticon\\ticonSize\\ticonOffset\\n");
-out.println("48.858205\\t2.294359\\tMoi\\tMa Position\\tOl_icon_red_example.png\\t24,24\\t0,-24\\n");
+out.println("lat"+\t+"lon"+\t+"title"+\t+"description"+\t+"icon"+\t+"iconSize"+\t+"iconOffset"+n);
+out.println("48.858205"+\t+"2.294359"+\t+"Moi"+\t+"Ma Position"+\t+"Ol_icon_red_example.png"+\t+"24,24"+\t+"0,-24"+\n);
 
 
         // Charger le pilote JDBC
