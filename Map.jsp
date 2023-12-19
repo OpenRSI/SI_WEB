@@ -76,6 +76,7 @@
                     minZoom: 1,
                     maxZoom: 20
                 }).addTo(macarte);
+		var marker = L.marker(48.858205, 2.294359).addTo(macarte);
                 // Nous parcourons la liste des villes
                 for (ville in data) {
                     var marker = L.marker([data[ville].lat, data[ville].lon]).addTo(macarte);
