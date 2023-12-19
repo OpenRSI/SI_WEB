@@ -7,7 +7,6 @@
     <title>Connexion à MySQL via JSP</title>
 </head>
 <body>
-    <h1>Exemple de connexion à MySQL via JSP</h1>
     <% 
     String url = "jdbc:mariadb://localhost:3306/equipements";
     String user = "mysql";
