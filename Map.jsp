@@ -33,7 +33,11 @@
             // Créer un objet JavaScript pour stocker les données de latitude et de longitude
             out.println("<script type='text/javascript'>");
             out.println("var data = {");
-        
+	    // Ajouter les coordonneés du POI central (l'utilisateur)
+                String USER = "MOI";
+                String lat_USER = "48.858205";
+                String lon_USER = "2.294359";
+	    out.println("\"" + USER + "\": { \"lat\": " + lat_USER + ", \"lon\": " + lon_USER + " },"); 	
             while (rs.next()) {
                 String batiment = rs.getString("equi_libelle");
                 String latitude = rs.getString("equi_lat");
