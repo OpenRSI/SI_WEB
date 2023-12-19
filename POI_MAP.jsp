@@ -1,16 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %>
 
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Connexion à MySQL via JSP</title>
-</head>
-<body>
     <% 
     String url = "jdbc:mariadb://localhost:3306/equipements";
     String user = "mysql";
     String password = "mysql";
+
+//C'est le POI de l'utilisateur
+out.println(lat\tlon\ttitle\tdescription\ticon\ticonSize\ticonOffset\n);
+out.println(48.858205\t2.294359\tMoi\tMa Position\tOl_icon_blue_example.png\t24,24\t0,-24\n);
+
 
         // Charger le pilote JDBC
         Class.forName("org.mariadb.jdbc.Driver");
@@ -34,5 +33,3 @@ Connection conn = DriverManager.getConnection(url, user, password);
         pstmt.close();
         conn.close();
     %>
-</body>
-</html>
